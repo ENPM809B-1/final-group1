@@ -1,20 +1,17 @@
 /snap/clion/135/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cheng/ariac_ws/src/final-group1
-CMake Error at CMakeLists.txt:12 (find_package):
-  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
-  asked CMake to find a package configuration file provided by "catkin", but
-  CMake did not find one.
-
-  Could not find a package configuration file provided by "catkin" with any
-  of the following names:
-
-    catkinConfig.cmake
-    catkin-config.cmake
-
-  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
-  "catkin_DIR" to a directory containing one of the above files.  If "catkin"
-  provides a separate development package or SDK, be sure it has been
-  installed.
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 2. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 8. Offending entry: >>>>>>> rajesh
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 41. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 45. Offending entry: >>>>>>> rajesh
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 242. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 252. Offending entry: >>>>>>> rajesh
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 264. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 268. Offending entry: >>>>>>> rajesh
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 278. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 290. Offending entry: >>>>>>> rajesh
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 359. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 363. Offending entry: >>>>>>> rajesh
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 395. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt on line 399. Offending entry: >>>>>>> rajesh
+CMake Error: The current CMakeCache.txt directory /home/cheng/ariac_ws/src/final-group1/cmake-build-debug/CMakeCache.txt is different than the directory /home/rajesh/ariac_ws/src/final-group1/cmake-build-debug where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/cheng/ariac_ws/src/final-group1/CMakeLists.txt" does not match the source "/home/rajesh/ariac_ws/src/final-group1/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
